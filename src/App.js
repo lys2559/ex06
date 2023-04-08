@@ -1,0 +1,13 @@
+import './App.css';
+import RouterPage from './components/RouterPage';
+import any from './imgs/any.jpg'
+function App() {
+  return (
+    <div className="App">
+      <img src={any} width="100%"/>
+        <RouterPage/>
+    </div>
+  );
+}
+
+export default App;
